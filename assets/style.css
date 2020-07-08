@@ -2,7 +2,7 @@ body{
 	background: #2980B9;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+	font-family: 'Noto Sans SC', sans-serif;
 }
 #container{
 	margin: 200px auto;
@@ -38,7 +38,7 @@ input{
 	width: 80%;
 	background: none;
 	color: inherit;
-	padding: 5px 5px 5px 10px;
+	padding: 5px 5px 5px 23px;
 	font: inherit;
 	outline: inherit;
 }
@@ -79,8 +79,10 @@ li:nth-child(2n){
 	height: 40px;
 	text-align: center;
 	color: white;
-	width: 40px;
+	width: 0;
 	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
 }
 .strike{
 	background-color: #4CAF50;
@@ -88,6 +90,13 @@ li:nth-child(2n){
 	margin-right: 20px;
 	text-align: center;
 	color: white;
-	width: 40px;
+	width: 0;
 	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+.changes{
+	width: 40px;
+	opacity: 1;
 }

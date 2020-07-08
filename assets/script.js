@@ -17,3 +17,10 @@ $("button").click(function(){
 	$("ul").append('<li><span class="del"><i class="fas fa-trash"></i></span><span class="strike"><i class="fas fa-strikethrough"></i></span> '+text+'</li>');
 	$("input").val("");
 });
+
+$("ul").on("click","li",function(event){
+	$(this).children("span").toggleClass("changes");
+	event.stopPropagation();
+	
+});
+
