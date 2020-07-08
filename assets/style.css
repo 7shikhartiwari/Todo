@@ -3,12 +3,14 @@ body{
 	background: -webkit-linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	font-family: 'Noto Sans SC', sans-serif;
+	font-size: 2em;
 }
 #container{
-	margin: 200px auto;
-	width: 600px;
+	margin: 100px auto;
+	width: 800px;
 	background-color: #dbfffb;
 	box-shadow: 0 0 3px rgb(0, 0, 0, 0.9);
+	font-size: 20px;
 }
 .strikeThrough{
 	color: grey;
@@ -16,10 +18,11 @@ body{
 }
 
 h1{
-
+	height: 80px;
+	font-size: 50px;
 	background-color: #016359;
 	color: white;
-	padding: 10px 10px 10px 10px;
+	padding: 20px 20px 20px 20px;
 	margin: 0;
 	text-align: center;
 	text-transform: uppercase;
@@ -38,7 +41,7 @@ input{
 	width: 80%;
 	background: none;
 	color: inherit;
-	padding: 5px 5px 5px 23px;
+	padding: 15px 15px 15px 23px;
 	font: inherit;
 	outline: inherit;
 }
@@ -53,7 +56,7 @@ button{
 	box-sizing: border-box;
 	background: none;
 	color: inherit;
-	padding: 5px 5px 5px 5px;
+	padding: 15px 15px 15px 15px;
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
@@ -67,8 +70,8 @@ ul{
 li{
 	background-color: white;
 	padding: 0;
-	height: 40px;
-	line-height: 40px;
+	height: 60px;
+	line-height: 60px;
 }
 
 li:nth-child(2n){
@@ -76,7 +79,7 @@ li:nth-child(2n){
 }
 .del{
 	background-color: #e74c3c;
-	height: 40px;
+	height: 60px;
 	text-align: center;
 	color: white;
 	width: 0;
@@ -86,7 +89,7 @@ li:nth-child(2n){
 }
 .strike{
 	background-color: #4CAF50;
-	height: 40px;
+	height: 60px;
 	margin-right: 20px;
 	text-align: center;
 	color: white;
@@ -97,6 +100,6 @@ li:nth-child(2n){
 }
 
 .changes{
-	width: 40px;
+	width: 60px;
 	opacity: 1;
 }

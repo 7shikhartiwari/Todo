@@ -8,6 +8,7 @@ $("ul").on("click",".del",function(event){
 
 $("ul").on("click",".strike",function(event){
 	$(this).parent().toggleClass("strikeThrough");
+	$(this).parent().children("span").toggleClass("changes");
 	event.stopPropagation();
 	
 });
