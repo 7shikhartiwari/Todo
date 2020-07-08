@@ -1,0 +1,93 @@
+body{
+	background: #2980B9;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#container{
+	margin: 200px auto;
+	width: 600px;
+	background-color: #dbfffb;
+	box-shadow: 0 0 3px rgb(0, 0, 0, 0.9);
+}
+.strikeThrough{
+	color: grey;
+	text-decoration: line-through;
+}
+
+h1{
+
+	background-color: #016359;
+	color: white;
+	padding: 10px 10px 10px 10px;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#container div{
+	box-sizing: border-box;
+	margin: 0;
+	width: 100%;
+	border: none;
+}
+input{
+	box-sizing: border-box;
+	box-shadow: 0 0 3px rgb(0, 0, 0, 0.5);
+	border:none;
+	width: 80%;
+	background: none;
+	color: inherit;
+	padding: 5px 5px 5px 10px;
+	font: inherit;
+	outline: inherit;
+}
+input:focus{
+	background-color: white;
+	color: #016359;
+}
+button{
+	box-shadow: 0 0 3px rgb(0, 0, 0, 0.5);
+	border:none;
+	width: 20%;
+	box-sizing: border-box;
+	background: none;
+	color: inherit;
+	padding: 5px 5px 5px 5px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	
+}
+ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+li{
+	background-color: white;
+	padding: 0;
+	height: 40px;
+	line-height: 40px;
+}
+
+li:nth-child(2n){
+	background-color: #dbfffb;
+}
+.del{
+	background-color: #e74c3c;
+	height: 40px;
+	text-align: center;
+	color: white;
+	width: 40px;
+	display: inline-block;
+}
+.strike{
+	background-color: #4CAF50;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 40px;
+	display: inline-block;
+}
